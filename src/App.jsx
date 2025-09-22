@@ -14,7 +14,7 @@ function App() {
     <ul>
       <li>Hajin Lee check-in Sep 19th 4pm</li>
       <li>Hyde Patil check-in Sep 21th 12am</li>
-      <li></li>
+      <li>Nathan Schroter check-in sept 22nd</li>
       <li></li>
       <li></li>
       <li></li>
