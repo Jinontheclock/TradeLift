@@ -6,39 +6,6 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
-<<<<<<< HEAD
-    return (
-        <>
-            <h1>MDIA-3126-Digital Asset Integration</h1>
-            <h2>Lab#1: Codebase Setup</h2>
-            <h3>
-<<<<<<< HEAD
-                All team members should pull the changes and run the necessary installs. <br />{" "}
-                Please put your name on it and commit & push to the branch "MDIA3126_Lab01"
-=======
-                All team members should pull the changes and run the necessary
-                installs. <br /> Please put your name on it and commit & push to
-                the branch "MDIA3126_Lab01"
->>>>>>> c2b6fb0b76bb341d720ad5b396b27aad1b6fe5f7
-            </h3>
-            <ul>
-                <li>Hajin Lee check-in Sep 19th 4pm</li>
-                <li>Hyde Patil check-in Sep 21th 12am</li>
-                <li>Leana Le check-in Sep 21th 1am</li>
-                <li>Luca Calamo check-in Sep 21st 2pm </li>
-                <li>hello this is nathan on september 22nd 11am</li>
-                <li>Kassidy Dreher check in September 23rd 1pm</li>
-                <li>Pablo Vega Check-In September 24</li>
-<<<<<<< HEAD
-                <li></li>
-=======
-                <li>Ubin Jung check in September 24th 11am</li>
->>>>>>> c2b6fb0b76bb341d720ad5b396b27aad1b6fe5f7
-                <li></li>
-            </ul>
-        </>
-    );
-=======
   return (
     <>
       <h1>MDIA-3126-Digital Asset Integration</h1>
@@ -55,12 +22,11 @@ function App() {
         <li>Luca Calamo check-in Sep 21st 2pm </li>
         <li>hello this is nathan on september 22nd 11am</li>
         <li>Kassidy Dreher check in September 23rd 1pm</li>
-        <li>Pablo Vega Check-In September 24</li>
+        <li>Pablo Vega check-in September 24</li>
         <li></li>
       </ul>
     </>
   );
->>>>>>> PabloLab01
 }
 
 export default App;
