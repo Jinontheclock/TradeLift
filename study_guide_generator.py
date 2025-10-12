@@ -29,10 +29,6 @@ def extract_key_points(text, num_points=5):
         # Extract bullet points
         points = [line.strip() for line in result.split('\n') if line.strip().startswith('•')]
         return points[:num_points]
-    
-    # Fallback to basic extraction if OpenAI fails
-    sentences = [s.strip() for s in re.split(r'[.!?]+', text) if s.strip()]
-    return [f"• {s}" for s in sentences[:num_points]]
 
 def generate_practice_questions(content):
     """Generate practice questions using OpenAI."""
